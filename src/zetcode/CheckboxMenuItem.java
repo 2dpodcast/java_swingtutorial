@@ -4,7 +4,6 @@ import java.awt.BorderLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
-
 import javax.swing.BorderFactory;
 import javax.swing.JCheckBoxMenuItem;
 import javax.swing.JFrame;
@@ -15,7 +14,6 @@ import javax.swing.SwingUtilities;
 import javax.swing.border.EtchedBorder;
 
 public class CheckboxMenuItem extends JFrame {
-
     private JLabel statusbar;
 
     public CheckboxMenuItem() {
@@ -23,7 +21,6 @@ public class CheckboxMenuItem extends JFrame {
     }
 
     public final void initUI() {
-
         JMenuBar menubar = new JMenuBar();
         JMenu file = new JMenu("File");
         file.setMnemonic(KeyEvent.VK_F);
